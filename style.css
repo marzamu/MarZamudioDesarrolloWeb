@@ -1,0 +1,95 @@
+
+body{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 1,5;
+    padding: 0;
+    margin: 0;
+    background: color #ffffff;
+}
+
+/*engloba todo*/
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+/*encabezado/header*/
+header{ 
+    background-image: url(../NuevoProyecto/img/title.jpg);
+    min-height: 100px;
+    border-bottom:rgb(139, 0, 93) 5px solid;
+}
+
+
+header a{
+    color:#f4f4f4;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family:cursive;
+}
+
+header li{
+    float:left;
+    display:inline;
+    padding: 0 30px 0 30px;
+}
+header #branding{
+    float:left;
+}
+header #branding h1 {
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin-top: 100px;
+}
+header .highlight, header .current a{
+    color: black;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #050101;
+    font-weight: bold;
+}
+
+/*showcase*/
+
+#showcase {
+    min-height: 500px;
+    background: url(../NuevoProyecto/img/perros_calle1.jpg); 
+    background-color: rgb(100, 100, 100);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    }
+    
+    
+    #showcase h1{
+        margin-top: 200px;
+        font-size: 55px;
+        margin-bottom: 10px;
+        font-style: oblique;
+        font-weight: bold;
+    }
+    
+    #showcase p{
+        font-size: 50px;
+    }
+
+
+/*Footer*/
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    border-top:  rgb(220, 20, 143) 5px solid;
+    color:rgb(10, 10, 10);
+    background-image: url(../NuevoProyecto/img/title.jpg);
+
+}  
